@@ -11,7 +11,7 @@ public enum RoomType {
         return roomType;
     }
 
-    private RoomType(String room) {
+    RoomType(String room) {
         this.roomType = room;
     }
 

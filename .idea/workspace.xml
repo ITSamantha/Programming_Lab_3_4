@@ -4,31 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c5af403-1fe9-4ecb-8992-03374d67c35b" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Classes/Carlson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Classes/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Classes/Flat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Classes/FrakenBok.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Classes/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Classes/Junior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Classes/Place.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Enums/ChaseType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Enums/Emotions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Enums/ItemType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Enums/PlaceToCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Enums/Position.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Enums/RoomType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Enums/TimeType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/FlatException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/UnknownActionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/Chase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/IEmotionable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/IFlyable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/IKeepable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/IRushable.java" afterDir="false" />
+    <list default="true" id="6c5af403-1fe9-4ecb-8992-03374d67c35b" name="Changes" comment="Lab added.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classes/Flat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/Flat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classes/FrakenBok.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/FrakenBok.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classes/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Enums/PlaceToCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enums/PlaceToCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Enums/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enums/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Enums/RoomType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enums/RoomType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Enums/TimeType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enums/TimeType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interfaces/Chase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaces/Chase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interfaces/IEmotionable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaces/IEmotionable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interfaces/IFlyable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaces/IFlyable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interfaces/IKeepable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaces/IKeepable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interfaces/IRushable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaces/IRushable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +71,7 @@
       <workItem from="1680183225447" duration="1434000" />
       <workItem from="1680380160206" duration="1347000" />
       <workItem from="1680428278598" duration="22313000" />
-      <workItem from="1680523135036" duration="8687000" />
+      <workItem from="1680523135036" duration="10951000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1680380637065</created>
@@ -91,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680380637065</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Lab added.">
+      <created>1680532033034</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680532033034</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,7 +95,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Lab added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab added." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

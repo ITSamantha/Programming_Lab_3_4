@@ -2,6 +2,7 @@ package Classes;
 
 import Enums.ItemType;
 import Exceptions.UnknownActionException;
+
 import java.util.Objects;
 import java.util.Random;
 
@@ -15,14 +16,21 @@ public class FrakenBok extends Human {
 
     public void setItem(String item) {
         this.item = new Item(item);
+
     }
 
     //Вложенный static
     public static class Item {
         private String caption;
 
+        private boolean isUsed = false;
+
         public String getCaption() {
             return caption;
+        }
+
+        public boolean isUsed() {
+            return isUsed;
         }
 
         private Item() {
@@ -31,12 +39,14 @@ public class FrakenBok extends Human {
 
         private Item(String caption) {
             this.caption = caption;
+            this.isUsed = false;
         }
 
         @Override
         public String toString() {
             return "Item{" +
                     "caption='" + caption + '\'' +
+                    ", isUsed=" + isUsed +
                     '}';
         }
 
@@ -70,6 +80,7 @@ public class FrakenBok extends Human {
             System.out.print(e.getMessage());
         } finally {
             System.out.printf("\n%s мчалась за %s с %s.", this.name, human.getName(), item.getCaption());
+            item.isUsed = true;
         }
     }
 

@@ -2,7 +2,6 @@ package Classes;
 
 import Enums.RoomType;
 import Exceptions.FlatException;
-
 import java.util.Objects;
 import java.util.Random;
 

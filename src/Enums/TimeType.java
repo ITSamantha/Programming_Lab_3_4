@@ -10,8 +10,8 @@ public enum TimeType {
     AGAIN("снова");
     private String timeType;
 
-    private TimeType(String timeType){
-        this.timeType=timeType;
+    TimeType(String timeType) {
+        this.timeType = timeType;
     }
 
     public String getTimeType() {

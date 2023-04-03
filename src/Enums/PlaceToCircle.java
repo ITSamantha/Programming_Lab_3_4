@@ -12,7 +12,7 @@ public enum PlaceToCircle {
         return placeToCircle;
     }
 
-    private PlaceToCircle(String place) {
+    PlaceToCircle(String place) {
         this.placeToCircle = place;
     }
 }

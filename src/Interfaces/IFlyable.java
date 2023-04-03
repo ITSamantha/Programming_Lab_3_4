@@ -6,5 +6,5 @@ import Enums.Position;
 public interface IFlyable {
     void circle(PlaceToCircle place);
 
-     void fly(Position position);
+    void fly(Position position);
 }

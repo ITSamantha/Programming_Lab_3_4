@@ -1,7 +1,6 @@
 package Classes;
 
 import Interfaces.IEmotionable;
-import Interfaces.IFlyable;
 import Interfaces.IKeepable;
 import Interfaces.IRushable;
 
